@@ -1,0 +1,6 @@
+Задача 2
+Добавть в проект сущьность Transaction {Long id, Account debit, Account credit, double amount) (Репозиторий для транзакций сделать в виде List или Map<Long,Transaction> т.е. id,транзакция) Реализовать следующие эндпоинты:
+
+GET /transactions - все транзакции
+GET /transactions/1 - транзакция c заданным id
+GET /accounts/1/transactions - все транзакции в которых участвует счет с заданным id
